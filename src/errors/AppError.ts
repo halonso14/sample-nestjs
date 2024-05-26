@@ -1,4 +1,4 @@
-export default class UpdaterError extends Error {
+export default class AppError extends Error {
   message: string;
 
   constructor(message: string) {
